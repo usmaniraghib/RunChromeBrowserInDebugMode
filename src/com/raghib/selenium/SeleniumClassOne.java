@@ -22,7 +22,6 @@ public class SeleniumClassOne {
 
 	public static void chromeBrowserMethod() throws InterruptedException {
 		//Chrome Browser
-		//System.setProperty("webdriver.chrome.driver","C:\\SELENIUM\\browser-driver\\chromedriver_win32\\chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+File.separator+"browserdrivers"+File.separator+"chromedriver_win32"+File.separator+"chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
